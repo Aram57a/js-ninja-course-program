@@ -1,5 +1,5 @@
 # Variables
-> A variable is a “named storage” for data
+> A variable is a "named storage" for data
 
 \
 To create a variable in JavaScript, use the **let** keyword.
@@ -38,7 +38,7 @@ In older scripts, you may also find another keyword: **var** instead of **let**:
 ```javascript
 var message = 'Hello';
 ```
-The var keyword is almost the same as let. It also declares a variable, but in a slightly different, ***“old-school”*** way.
+The var keyword is almost the same as let. It also declares a variable, but in a slightly different, ***"old-school"*** way.
 
 We'll cover them in the future sections.
 
@@ -74,7 +74,7 @@ Variable naming rules:
 ## Constants
 To declare a constant (unchanging) variable, use **const** instead of **let**:
 
-Variables declared using const are called ***“constants”***. They cannot be reassigned. An attempt to do so would cause an error:
+Variables declared using const are called ***"constants"***. They cannot be reassigned. An attempt to do so would cause an error:
 
 ``` javascript
 const myBirthday = '18.04.1982';
