@@ -45,7 +45,7 @@ We'll cover them in the future sections.
 ## Variable naming
 There are two limitations on variable names in JavaScript:
 
-- The name must contain only letters, digits, or the symbols $ and _.
+- The name must contain only letters, digits, or the symbols **$** and **_**.
 - The first character must not be a digit.
 
 \
