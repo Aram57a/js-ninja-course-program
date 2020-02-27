@@ -13,7 +13,7 @@ JavaScript programs can be inserted into any part of an HTML document with the h
 </head>
 <body>
   <script>
-    console.log('Hello, world!');
+    console.log('Hello, world!')
   </script>
 </body>
 </html>
@@ -39,7 +39,7 @@ We must choose either an external ```<script src="…">``` or a regular ```<scri
 A single ```<script>``` tag can’t have both the src attribute and code inside. If src is set, the script content is ignored.
 ```html
 <script src="file.js">
-  console.log('Hello, World!'); // the content is ignored, because src is set
+  console.log('Hello, World!') // the content is ignored, because src is set
 </script>
 ```
 

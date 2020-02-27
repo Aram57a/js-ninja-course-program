@@ -4,39 +4,39 @@
 \
 To create a variable in JavaScript, use the **let** keyword.
 ``` javascript
-let name;
-name = 'John';
+let name
+name = 'John'
 ```
 \
 To be concise, we can combine the variable declaration and assignment into a single line:
 ``` javascript
-let myName = 'Mike';
+let myName = 'Mike'
 ```
 \
 We can also declare multiple variables in one line but we don’t recommend it for readability:
 ``` javascript
-let firstName = 'John', lastName = 'Doe';
+let firstName = 'John', lastName = 'Doe'
 ```
 \
 The multiline variant is a bit longer, but easier to read:
 ``` javascript
-let city = 'Yerevan';
-let country = 'Armenia';
+let city = 'Yerevan'
+let country = 'Armenia'
 ```
 \
 We can also declare two variables and copy data from one into the other.
 ``` javascript
-let computer = 'Apple';
-let os = 'Mac';
+let computer = 'Apple'
+let os = 'Mac'
 
-computer = os;
+computer = os
 ```
 
 ## **var** keyword
 
 In older scripts, you may also find another keyword: **var** instead of **let**:
 ```javascript
-var message = 'Hello';
+var message = 'Hello'
 ```
 The var keyword is almost the same as let. It also declares a variable, but in a slightly different, ***"old-school"*** way.
 
@@ -51,16 +51,16 @@ There are two limitations on variable names in JavaScript:
 \
 Examples of valid names:
 ``` javascript
-let userName;
-let test123;
-let $dollar;
-let _validName;
+let userName
+let test123
+let $dollar
+let _validName
 ```
 \
 Examples of incorrect variable names:
 ```javascript
-let 1a; // cannot start with a digit
-let my-name; // hyphens '-' aren't allowed in the name
+let 1a // cannot start with a digit
+let my-name // hyphens '-' aren't allowed in the name
 ```
 \
 Variable naming rules:
@@ -77,15 +77,15 @@ To declare a constant (unchanging) variable, use **const** instead of **let**:
 Variables declared using const are called ***"constants"***. They cannot be reassigned. An attempt to do so would cause an error:
 
 ``` javascript
-const myBirthday = '18.04.1982';
+const myBirthday = '18.04.1982'
 
-myBirthday = '01.01.2001'; // Uncaught TypeError: Assignment to constant variable.
+myBirthday = '01.01.2001' // Uncaught TypeError: Assignment to constant variable.
 ```
 
 Also you can't declare a const variable without initialization
 
 ```javascript
-const myBirthday; // Uncaught SyntaxError: Missing initializer in const declaration
+const myBirthday // Uncaught SyntaxError: Missing initializer in const declaration
 ```
 
 ## **Summary**

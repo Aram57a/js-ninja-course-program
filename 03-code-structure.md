@@ -4,11 +4,11 @@
 
 When we write programs - we describe the sequences of actions that should be performed to get a desired result. In programming languages those actions are called statements. So every Javascript program basically consists of statements. In Javascript statements are separated by semicolons.
 ```javascript
-let firstName; // a statement
-let dateOfBirth = 0; // a statement
+let firstName // a statement
+let dateOfBirth = 0 // a statement
 function someFunction() {} // a statement
 if(true){} // a statement
-2+2; // a statement
+2+2 // a statement
 ```
 As you can see statements just do things.
 
@@ -83,13 +83,13 @@ As time goes on, programs become more and more complex. It becomes necessary to 
 - Multiline comments start with a forward slash and an asterisk ``/*`` and end with an asterisk and a forward slash ``*/``.
 
 ```javascript
-console.log('Hello') // Description of the code
+console.log('Hello'); // Description of the code
 
 /*
   Multiline Description
   of the code
 */
-console.log('World')
+console.log('World');
 ```
 > Nested comments are not supported!
 
