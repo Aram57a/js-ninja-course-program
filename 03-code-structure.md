@@ -98,5 +98,5 @@ Please, don’t hesitate to comment your code :)
 ## **Summary**
 - **Statements** just do things.
 - Semicolon is a ``;`` symbol that separates **Statements** in JavaScript
-- Expression - produce values
+- **Expression** - produce values
 - Comment your code to describe what the code does and why
