@@ -35,7 +35,7 @@ Or just reference it directly:
 console.log(Infinity) // Infinity
 ```
 ### NaN
-``NaN`` represents a computational error. It is a result of an incorrect or an undefined mathematical operation
+``NaN`` represents a computational error. It is a result of an incorrect or an undefined mathematical operation - Not a Number
 ```javascript
 console.log('some text' / 2) // NaN, such division is erroneous
 ```
