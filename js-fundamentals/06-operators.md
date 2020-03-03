@@ -201,13 +201,6 @@ For instance:
 console.log( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root, that's maths)
 console.log( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
 ```
-The operator works for non-integer numbers as well.
-
-For instance:
-```javascript
-console.log( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root, that's maths)
-console.log( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
-```
 ## Increment/decrement ##
 Increasing or decreasing a number by one is among the most common numerical operations.
 
