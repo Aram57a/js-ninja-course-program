@@ -165,13 +165,13 @@ We get these results because:
 ## Evade problems ##
 Why did we go over these examples? Should we remember these peculiarities all the time? Well, not really. Actually, these tricky things will gradually become familiar over time, but there’s a solid way to evade problems with them:
 
-Just treat any comparison with undefined/null except the strict equality === with exceptional care.
+Just treat any comparison with undefined/null except the strict equality ```===``` with exceptional care.
 
-Don’t use comparisons >= > < <= with a variable which may be null/undefined, unless you’re really sure of what you’re doing. If a variable can have these values, check for them separately.
+Don’t use comparisons ```>= > < <=``` with a variable which may be null/undefined, unless you’re really sure of what you’re doing. If a variable can have these values, check for them separately.
 
 ## **Summary** ##
 - Comparison operators return a boolean value.
-- Strings are compared letter-by-letter in the “dictionary” order.
+- Strings are compared letter-by-letter in the "dictionary" order.
 - When values of different types are compared, they get converted to numbers (with the exclusion of a strict equality check).
-- The values null and undefined equal == each other and do not equal any other value.
-- Be careful when using comparisons like > or < with variables that can occasionally be null/undefined. Checking for null/undefined separately is a good idea.
+- The values null and undefined equal ```==``` each other and do not equal any other value.
+- Be careful when using comparisons like ```>``` or ```<``` with variables that can occasionally be ```null/undefined```. Checking for ```null/undefined``` separately is a good idea.
